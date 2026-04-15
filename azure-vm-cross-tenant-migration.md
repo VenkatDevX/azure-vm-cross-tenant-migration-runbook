@@ -1,10 +1,3 @@
-# Azure VM Cross-Tenant Migration Runbook
-
-> **Repo:** `azure-vm-cross-tenant-migration-runbook`
-> **Description:** Step-by-step PowerShell runbook for migrating Azure VMs across tenants using snapshot-based disk transfer — covering snapshot creation, SAS URL export, VHD copy, managed disk creation, and VM provisioning.
-
----
-
 ## Overview
 
 This runbook documents the end-to-end process for migrating a Windows VM from one Azure tenant to another using a snapshot-based approach. It is intended for DevOps and Cloud engineers working in multi-tenant Azure environments.
